@@ -1,0 +1,34 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .banner-content {
+        padding: 115px 0px;
+    }
+
+    .banner .banner-content h3 {
+        font-size: 20px;
+    }
+    .banner-content h1{
+        font-size: 43px;
+        margin-top: 9px;
+        color: #fefbfc;
+        border: 2px solid #fefbfc;
+        padding: 17px 10px;
+    }
+    .banner-content h4{
+        font-size: 18px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
